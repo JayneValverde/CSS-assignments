@@ -1,106 +1,19 @@
-# 02 Advanced CSS: Portfolio
+# Jayne's first portfolio 
 
-## Your Task
+This weeks challenge was met with a lot of road blocks for me. I finally feel like this site is clean and functional enough to be presented. I was struggeling quite a bit with **Flexbox** arrangment as well as its corrisponding CSS stylings. 
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+The Webpage is a good start for what I eventually want to be an adequate showcase of my abilities in this field. There are a few things missing from the assignment that I just coudn't make work on my own. For instance, the navigation bar is functional **but** I was not able to make any annimation for the button function. I also have image of my artwork as place holders for future applicaiton links **but** there are still not links attached. 
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+Despite the pitfalls, this was an enlighting exercise that I was to come back to again soon. Once I was able to see the website come together, I was very excited and inspired to keep exploring! Comming from an artist background, I approched this with the design aspects mind and I cant wait to see what else I can really do once I learn more!
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Screenshot of Website
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+![screenshot of website](./images/screenshot.jpeg)
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+## Resources 
 
+Through out this challenges went back over a lot of zoom recordings, class assessments and countless google searches. Below are just a few of the main sites and apps I used to help create this site. 
 
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./images/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* [Procreate](https://procreate.com/) : for custom hero image
+* [W3 Schools](https://www.w3schools.com/) : for basically all tutorials involing css 
+* [Codecademy](https://www.codecademy.com/) : for defintions and claificaiton 
