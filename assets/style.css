@@ -4,30 +4,32 @@
     margin: 0;
 }
 
-/* CHANGED BACKGROUND COLOR TO CUSTOM HEX CODE */
+/* CHANGED BACKGROUND COLOR TO GRADIENT IMAGE */
 
 body {
     /* background-color: #8b7f27; */
-    /* background: linear-gradient(orange, #8b7f27); */
     background-image: url("../images/gradient_04.jpeg");
     background-size: cover;
-    /* background-size(fixed);  */
 }
 
-
+/* NAV BAR */
 .header {
+    border-bottom: solid #1f1b1a;
+    border-width: 3px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background-color: #76b5d4; */
     color: #1f1b1a;
 }
 
+/* WELCOME TITLE */
 .header h1 {
     display: inline-block;
     font-size: 45px;
     margin-left: 45px;
 }
 
+/* NAVIGATION BAR */
 .header nav {
     padding-top: 15px;
     margin-right: 45px;
@@ -43,29 +45,7 @@ body {
 .header nav ul li {
     display: inline-block;
     text-align: justify
-    margin-left: 25px;
-}
-
-/* Solid border */
-hr.solid {
-    margin: auto;
-    border-top: 3px solid #1f1b1a;
-    width: 85%;
-    position: relative;
-  }
-
-
-/* CUSTOMIZED HERO IMAGE  */
-
-.hero {
-    position: relative; 
-    margin: 0%;
-    height: 750px;
-    width: 100%;
-    /* margin-bottom: 25px; */
-    background-image: url("../images/header-image-2.png");
-    background-size: cover;
-    background-position: center;
+        /* margin-left: 25px; */
 }
 
 a {
@@ -73,75 +53,176 @@ a {
     text-decoration: none;
 }
 
+/* CUSTOMIZED HERO IMAGE  */
+.hero {
+    position: relative;
+    margin: 0%;
+    height: 585px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/header-image-4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* LEFT MARGIN TEXT */
+.margin-text {
+    /* border-right: solid #1f1b1a; */
+    border-width: 3px;
+    text-align: justify;
+    padding: 60px;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 p {
     font-size: 20px;
-}
-
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-color: #2589bd; */
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3{
-    margin-bottom: 10px;
     text-align: center;
+    line-height: 2rem;
+    color: #1f1b1a;
+    padding: 1 rem;
 }
 
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* ABOUT ME CONTAINER */
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items:center; */
+    /* justify-content: center; */
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 10px;
+    padding-right: 20%
+    /* margin-left: 23rem; */
+
 }
 
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-color: #0072bb; */
-    /* color: #ffffff; */
+.column {
+    /* min-height: 20vh; */
+    margin:4vh auto;
+    display: flex;
+    justify-content: first baseline;
+    padding-left: 11%;
+    padding-right: 25%;
+
 }
 
-.services img {
-    max-height: 200px;
+/* CONTAINER FOR ALL WORK */
+.container {
+    min-height: 5vh;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: first baseline;
 }
 
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* WORK IMAGE CARDS */
+.skills {
+    flex: 4;
+    /* background-color: #8b7f27; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px;
+    padding-right: 15%;
+    margin-left: 7rem;
+
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.card {
+    /* border-style: solid; */
+    border-width: 1px;
+    /* border-radius: 50px; */
+    padding: 10px;
+    flex: 0 0 480px;
+    margin: 5px;
+
+}
+
+.card header {
+    /* border-radius: 50px 50px 0px 0px; */
+    padding: 10px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1f1b1a;
+    font-size: 18px
+}
+
+.card img {
+    /* height: 100%; */
+    width: 100%;
+    /* border-radius: 10%; */
+
+}
+
+/* FLEX CONTAINERS */
+
+.flex {
+    display: flex;
+    align-items: self-start;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.margin-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+/* .margin-top {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+} */
+
+/* FOOTER!!! */
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+}
+
+.row-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer-flex {
+    flex: 1 1;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+#textContainer {
+    font-size: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    padding: 0%;
+
+}
+
+#top {
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
 }

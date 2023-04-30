@@ -7,86 +7,100 @@
     <title>Jaynes Portfolio</title>
 </head>
 
-<!-- MOVED HERO IMAGE TO TOP -->
-
-
 <body>
     <header class="header">
         <h1>Welcome</h1>
-        <nav class="button">
+        <nav>
             <ul>
-                <li> <a href="#About Me">About Me</a> </li>
+                <li> <a href="#AboutMe">About Me</a> </li>
                 <li> <a href="#Work">Work</a> </li>
-                <li> <a href="#Contact Me">Contact Me</a> </li>
+                <li> <a href="#ContactMe">Contact Me</a> </li>
             </ul>
         </nav>
     </header>
 
-    
-
-<!-- DIVIDER LINES -->
-    <hr class="solid">
-     
-<!-- HERO IMAGE --> 
-
+    <!-- HERO IMAGE -->
     <div class="hero"></div>
-    
-    <main class="content">
-        <main class="services">
-            <!-- <img src="./assets/images/search-engine-optimization.jpg" alt="wood table with a journal in center, marketing notes are seen written on journal" class="float-left" /> -->
-            <h2>About Me</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </main>
-        <main id="Work" class="services">
-            <!-- <img src="./assets/images/online-reputation-management.jpg" alt="buisness man on laptop with a graph chart thats labeled Reputaton" class="float-right" /> -->
-            <h2>Work</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </main>
-        <main id="Contact Me" class="services">
-            <!-- <img src="./assets/images/social-media-marketing.jpg" alt="workers gathered around a table sharing marketing ideas" class="float-left" /> -->
-            <h2>Contact Me</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </main>
+
+    <main>
+        <!-- ABOUT ME CONTAINER LEFT -->
+        <section>
+            <div class="flex margin-top">
+                <div class="margin-text">
+                    <b id="AboutMe">About Me</b>
+                </div>
+                <!-- ABOUT ME PARAGRAPH RIGHT -->
+                <div class="column">
+                    <div id="textContainer">
+                        <p id="top">
+                            My name is Jayné M. Valverde and I am coding bootcamp student at UTSA.
+                            I have my Associate degree in Biology and a Bachelors of Fine Arts.
+                            It's quite obvious that I am a professional student and plan to spend my 
+                            time on earth learning what I can about topics that interest me. 
+                            I am hoping, with these new skills, to change my career path while also learning new 
+                            skills to facilitate new and exciting projects for my art work in the future. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- WORK CONTAINER LEFT -->
+            <div class="container">
+                <div class="flex margin-left">
+                    <div class="margin-text">
+                        <b id="Work">Work</b>
+                    </div>
+                    <!-- WORK CARDS RIGHT -->
+                    <div class="skills">
+                        <section class="card">
+                            <header><b>Art / Art History</b></header>
+                            <img src="./images/02-arthistory.png" alt="art historical image" />
+                        </section>
+                        <section class="card">
+                            <header><b>Printmaking</b></header>
+                            <img src="./images/03-printmaking.png" alt="print making image" />
+                        </section>
+                        <section class="card">
+                            <header><b>New Media</b></header>
+                            <img src="./images/03-newmedia.png" alt="new media image" />
+                        </section>
+                        <section class="card">
+                            <header><b>Woodworking</b></header>
+                            <img src="./images/04-woodworking.png" alt="woodworking image" />
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 
+        <!-- FOOTER -->
 
-    <aside class="benefits">
-        <aside class="benefit">
-            <h3>Lead Generation</h3>
-            <!-- <img src="./assets/images/lead-generation.png" alt="black icon, half a gear on top of a tunnel with down arrow in middle, black dot with money sign in center" /> -->
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </aside>
-        <aside class="benefit">
-            <h3>Brand Awareness</h3>
-            <!-- <img src="./assets/images/brand-awareness.png " alt="black icon, man with tie, light bulb for a head, sound wave lines form out side of head" /> -->
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </aside>
-        <aside class="benefit">
-            <h3>Cost Management</h3>
-            <!-- <img src="./assets/images/cost-management.png" alt="black icon, gear symbol with three coin shaped symbols with dollar signs in the middle" /> -->
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </aside>
-    </aside>
-
-
-    <footer class="footer">
-        <strong>Made by Jayné M. Valverde</strong>
-        <p> &copy; 2023 Sleepy Cat House, Inc.</p>
-    </footer>
+        <div class="footer-margin">
+            <div class="flex-footer">
+                <!-- <aside class="aside-title"> -->
+                <div class="margin-text">
+                    <b id="ContactMe">Contact Me</b>
+                </div>
+                <nav class="footer-flex">
+                    <ul class="row-footer">
+                        <li class="footer-text">
+                            <i class="fa fa-cloud" style="font-size:24px;"></i>
+                            <a href="https://github.com/JayneValverde">GitHub</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="https://twitter.com/jaynemvalverde">Twitter</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="https://www.instagram.com/auntiejanie_/">Instagram</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>  
 
 </body>
 
 </html>
-
