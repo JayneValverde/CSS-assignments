@@ -1,5 +1,7 @@
 # Jayne's first portfolio 
 
+## [**_Link to deployed website_** ](https://jaynevalverde.github.io/CSS-assignments/)
+
 This weeks challenge was met with a lot of road blocks for me. I finally feel like this site is clean and functional enough to be presented. I was struggeling quite a bit with **Flexbox** arrangment as well as its corrisponding CSS stylings. 
 
 The Webpage is a good start for what I eventually want to be an adequate showcase of my abilities in this field. There are a few things missing from the assignment that I just coudn't make work on my own. For instance, the navigation bar is functional **but** I was not able to make any annimation for the button function. I also have image of my artwork as place holders for future applicaiton links **but** there are still not links attached. 
