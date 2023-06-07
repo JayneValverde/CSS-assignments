@@ -55,9 +55,10 @@ a {
 
 /* CUSTOMIZED HERO IMAGE  */
 .hero {
+    display: flex;
     position: relative;
     margin: 0%;
-    height: 585px;
+    height: 485px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/header-image-4.png");
@@ -69,7 +70,7 @@ a {
 .margin-text {
     /* border-right: solid #1f1b1a; */
     border-width: 3px;
-    text-align: justify;
+    text-align: right;
     padding: 60px;
     font-size: 48px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -93,17 +94,18 @@ p {
     align-content: flex-start;
     padding: 10px;
     padding-right: 20%
-    /* margin-left: 23rem; */
+        /* margin-left: 23rem; */
 
 }
 
 .column {
-    /* min-height: 20vh; */
-    margin:4vh auto;
     display: flex;
     justify-content: first baseline;
-    padding-left: 11%;
-    padding-right: 25%;
+    align-items: center;
+    /* min-height: 20vh; */
+    margin: 4vh auto;
+    padding-left: 12vh;
+    padding-right: 20vh;
 
 }
 
@@ -125,24 +127,30 @@ p {
     justify-content: space-evenly;
     flex-direction: row;
     align-content: center;
-    padding: 10px;
-    padding-right: 15%;
-    margin-left: 7rem;
+    /* padding: 10px; */
+    /* padding-right: 15%; */
+    /* margin-left: 7rem; */
 
 }
 
 .card {
     /* border-style: solid; */
-    border-width: 1px;
+    border-width: 5px;
     /* border-radius: 50px; */
-    padding: 10px;
+    /* padding: 10px; */
     flex: 0 0 480px;
-    margin: 5px;
+    /* margin: 5px; */
+}
 
+
+.card:hover {
+    -moz-box-shadow: 0 0 6px #000000;
+    -webkit-box-shadow: 0 0 6px #000000;
+    box-shadow: 0 0 6px #000000;
 }
 
 .card header {
-    /* border-radius: 50px 50px 0px 0px; */
+    border-radius: 50px 50px 0px 0px;
     padding: 10px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,11 +159,10 @@ p {
 }
 
 .card img {
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
-    /* border-radius: 10%; */
-
 }
+
 
 /* FLEX CONTAINERS */
 
@@ -164,11 +171,12 @@ p {
     align-items: self-start;
     flex-direction: row;
     justify-content: center;
-    padding-left: 5%;
+    padding-left: 9rem;
 }
 
 .margin-left {
     display: flex;
+    /* padding: 0%; */
     flex-wrap: wrap;
     flex-direction: row;
 
@@ -214,9 +222,8 @@ p {
 #textContainer {
     font-size: 6vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:center;
+    text-align: center;
     padding: 0%;
-
 }
 
 #top {
